@@ -145,15 +145,15 @@ padding: 50px;
     transition: all 0.7s ease-out;
     height: 538px;
   }
+   #h1{
+  
+  font-size: 26px;
+ 
+}
   .burger{
     display: block;
   }
-  #h1{
-  color:black;
-  font-size: 26px;
-  padding: 50px;
-  font-family: 'Times New Roman', Times, serif;
-}
+ 
   .h-nav{
     height: 55px;
 
