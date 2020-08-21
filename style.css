@@ -145,11 +145,10 @@ padding: 50px;
     transition: all 0.7s ease-out;
     height: 538px;
   }
-   #h1{
-  
-  font-size: 26px;
- 
-}
+   #h1
+  {
+     font-size: 26px;
+  }
   .burger{
     display: block;
   }
