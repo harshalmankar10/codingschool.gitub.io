@@ -148,6 +148,12 @@ padding: 50px;
   .burger{
     display: block;
   }
+  #h1{
+  color:black;
+  font-size: 26px;
+  padding: 50px;
+  font-family: 'Times New Roman', Times, serif;
+}
   .h-nav{
     height: 55px;
 
