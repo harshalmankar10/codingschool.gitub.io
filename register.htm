@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Register</title>
+
+</head>
+
+<body>
+    <nav class="background navbar h-nav">
+
+        <ul class="nav-list v-class">
+            <li style="color:orange;font-size:20px">Coding School</li>
+            <li><a href="index.htm">Home</a></li>
+            <li><a href="aboutus.htm">About Us</a></li>
+            <div class="dropdown">
+                <button class="dropbtn">Topics</button>
+                <div class="dropdown-content">
+                    <a href="#">C </a>
+                    <a href="#">C++</a>
+                    <a href="#">Python</a>
+                    <a href="#">Java</a>
+                </div>
+            </div>
+            <li><a href="contactus.htm">Contact Us</a></li>
+            <li ><a href="login.htm">Login</a></li>
+            <li  class="active"><a href="register.htm">Register</a></li>
+            <input type="text" name="srch" id="srch">
+            <button style="border-radius: 5px;background-color: rgb(23, 211, 23);color: white;padding: 2px;"
+                class="btn btn-sm">Search</button>
+        </ul>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+
+    </nav>
+
+    <section class="background box">
+
+        <div class="firsthalf">
+            <p style="color:orange;font-size:50px">Coding School</p>
+            <p style="color:aliceblue;font-size:25px">A place where you will learn many programming languages.</p>
+        </div>
+    </section>
+    <section class="contact">
+        <div class="form">
+            <form action="welcome.htm" method="POST">
+
+                <center><h1 style="font-size: 45px;padding: 20px;">* Register *</h1></center>
+                <h2>Full Name</h2>
+                <input class="form-in" type="text" name="name" id="name" placeholder="Enter Your Name" required>
+                <h2>Email id</h2>
+                <input class="form-in" type="text" name="emd" id="emd" placeholder="Enter Email Id" required>
+                <h2>Date of Birth</h2>
+                <input class="form-in" type="date" name="dt" id="dt" placeholder="DOB" required>
+                <h2>Gender</h2><br>
+                <input type="radio" name="sex" id="sex">Male
+                <input type="radio" name="sex" id="sex">Female
+                <input type="radio" name="sex" id="sex">Other<br><br>
+                <h2>Skills</h2><br>
+                <input type="checkbox" name="chk" id="chk">C
+                <input type="checkbox" name="chk" id="chk">Python<br><br>
+                <input type="checkbox" name="chk" id="chk">Cpp
+                <input type="checkbox" name="chk" id="chk">Java<br><br>
+                <h2>Contact No</h2>
+                <input class="form-in" type="text" name="phone" id="phone" placeholder="Enter Valid Contact No" required>
+                <h2>Set Password</h2>
+                <input class="form-in" type="password" name="p" id="p" placeholder="Enter Password" required>
+                <input class="form-in" type="password" name="p1" id="p1" placeholder="Confirm Password" required>
+                <h2>Write About you</h2>
+                <textarea class="form-in" name="query" id="query" cols="30" rows="5" ></textarea>
+                <center><input type="submit" style="width: 130px;height: 30px;background-color:greenyellow" value="Register">
+                <input type="reset" style="width: 130px;height: 30px;background-color:greenyellow" value="Reset"></center>
+            </form>
+           
+        </div>
+       
+    </section>
+
+   
+    <footer class="footer">
+        <center>
+            <p>
+                @Coding School since 2020<br>
+                
+            </p>
+
+        </center>
+    </footer>
+    <script src="resp.js"></script>
+</body>
+
+</html>

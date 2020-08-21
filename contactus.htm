@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <nav class="background navbar h-nav">
+
+        <ul class="nav-list v-class">
+            <li style="color:orange;font-size:20px">Coding School</li>
+            <li><a href="index.htm">Home</a></li>
+            <li><a href="aboutus.htm">About Us</a></li>
+            <div class="dropdown">
+                <button class="dropbtn">Topics</button>
+                <div class="dropdown-content">
+                    <a href="#">C </a>
+                    <a href="#">C++</a>
+                    <a href="#">Python</a>
+                    <a href="#">Java</a>
+                </div>
+            </div>
+            <li class="active"><a href="contactus.htm">Contact Us</a></li>
+            <li><a href="login.htm">Login</a></li>
+            <li><a href="register.htm">Register</a></li>
+            <input type="text" name="srch" id="srch">
+            <button style="border-radius: 5px;background-color: rgb(23, 211, 23);color: white;padding: 2px;"
+                class="btn btn-sm">Search</button>
+        </ul>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+
+    </nav>
+
+    <section class="background box">
+
+        <div class="firsthalf">
+            <p style="color:orange;font-size:50px">Coding School</p>
+            <p style="color:aliceblue;font-size:25px">A place where you will learn many programming languages.</p>
+        </div>
+    </section>
+    <section class="contact">
+        <div class="form">
+            <form action="welcome.htm" method="POST">
+
+                <center>
+                    <h1 style="font-size: 45px;">* Contact US *</h1>
+                </center>
+                <input class="form-in" type="text" name="name" id="name" placeholder="Enter Your Name" required>
+                <input class="form-in" type="text" name="phone" id="phone" placeholder="Enter Your Phone No" required>
+                <input class="form-in" type="text" name="emd" id="emd" placeholder="Enter Email Id" required>
+                <textarea class="form-in" name="query" id="query" cols="30" rows="10"
+                    placeholder="Write Your Query/Suggestion" required></textarea>
+                <center><input type="submit" style="width: 70px;height: 30px;" value="Submit"></center>
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <footer class="footer">
+        <center>
+            <p>
+                @Coding School since 2020<br>
+
+            </p>
+
+        </center>
+    </footer>
+    <script src="resp.js"></script>
+</body>
+
+</html>
